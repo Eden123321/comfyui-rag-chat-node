@@ -90,7 +90,7 @@ class RAGChatNode:
                 full_url,
                 headers=headers,
                 json=request_params,
-                timeout=60
+                timeout=120
             )
             rsp.encoding = "utf-8"
 
